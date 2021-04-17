@@ -1,0 +1,32 @@
+{
+  "name": "cc-lint",
+  "version": "0.1.0",
+  "description": "ESLint wrapper for personal projects",
+  "files": ["cli.js", ".eslintrc.*"],
+  "bin": {
+    "cc-lint": "cli.js"
+  },
+  "scripts": {
+    "test": "./cli.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/couetilc/cc-lint.git"
+  },
+  "keywords": [
+    "eslint",
+    "cc-lint",
+    "cc"
+  ],
+  "author": "Connor Couetil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/couetilc/cc-lint/issues"
+  },
+  "homepage": "https://github.com/couetilc/cc-lint#readme",
+  "dependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-cc-lint": "^1.4.0",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}
